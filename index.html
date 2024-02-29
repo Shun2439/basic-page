@@ -33,18 +33,62 @@ p {
 	font-family: 'Noto Serif JP', serif;
 	font-size: 24px;
 }
+
+.game {
+	background-color: #eeffff;
+}
+
+.music {
+	background-color: #eeeeff;
+}
+
+table{
+	border: 2px solid rgb(0, 0, 0);
+	font-family: 'Noto Serif JP', serif;
+	letter-spacing: 1px;
+}
+
+caption{
+	padding: 10px;
+}
+
+th,
+td{
+	border: 1px solid #000000;
+	padding: 8px 6px;
+	text-align: center;
+}
+
 		</style>
 	</head>
 
 	<body>
 		<h2>hoge</h2>
 		<h3>foo</h3>
-<<<<<<< HEAD
 		<p>bar</p>
-=======
 		<p>fuga</p>
 
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/iL7mBkuY3Hw?si=OisyNZXKAhXzzLzG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
->>>>>>> testing
+		<center>
+			<table>
+				<caption>
+					Test Test!
+				</caption>
+				<colgroup>
+					<col />
+					<col span="1" class="game">
+					<col span="1" class="music">
+				</colgroup>
+				<tr>
+					<td></td>
+					<th scope="col">Games</th>
+					<th scope="col">Music</th>
+				</tr>
+				<tr>
+					<th></th>
+					<td>Pacman</td>
+					<td>UNISON SQUARE GARDEN</td>
+				</tr>
+			</table>
+		</center>
 	</body>
 </html>
